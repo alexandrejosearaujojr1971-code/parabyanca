@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background: #0a0a0a;
+    font-family: 'Georgia', serif;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+#particles {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #ff1b1b;
+    text-shadow: 0 0 12px #ff0000;
+}
+
+.carta {
+    background: rgba(0,0,0,0.55);
+    border-left: 4px solid #ff1b1b;
+    margin: 40px auto;
+    padding: 35px;
+    max-width: 750px;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    backdrop-filter: blur(6px);
+}
+
+.assinatura {
+    text-align: right;
+    margin-top: 25px;
+    color: #ff3b3b;
+    font-style: italic;
+}
+
+.memorias {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.media-item {
+    margin-top: 30px;
+}
+
+.media-img, .media-video {
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #400000;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #888;
+    margin-top: 60px;
+}
